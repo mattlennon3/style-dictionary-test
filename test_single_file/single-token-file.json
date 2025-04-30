@@ -1,0 +1,66 @@
+{
+  "primitives": {
+    "color": {
+      "success": {
+        "500": {
+          "value": "#68a45c",
+          "type": "color"
+        }
+      },
+      "transparancy": {
+        "00%": {
+          "value": "#00000000",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "semantics": {
+    "color": {
+      "fill": {
+        "surface": {
+          "feedback": {
+            "success primary": {
+              "value": "{color.success.500}",
+              "type": "color"
+            }
+          },
+          "action": {
+            "action secondary": {
+              "value": "{color.transparancy.00%}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "theme1": {
+    "badge": {
+      "generic": {
+        "value": "{color.fill.surface.action.action secondary}",
+        "type": "color"
+      },
+      "default": {
+        "value": "{color.fill.surface.feedback.success primary}",
+        "type": "color"
+      }
+    }
+  },
+  "theme2": {
+    "badge": {
+      "generic": {
+        "value": "{color.fill.surface.action.action secondary}",
+        "type": "color"
+      },
+      "default": {
+        "value": "{color.fill.surface.feedback.success primary}",
+        "type": "color"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": ["primitives", "semantics", "theme1", "theme2"]
+  }
+}
