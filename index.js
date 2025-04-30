@@ -10,7 +10,7 @@ register(StyleDictionary);
 const sd = new StyleDictionary({
   // make sure to have source match your token files!
   // be careful about accidentally matching your package.json or similar files that are not tokens
-  source: ["test_tokens/**/*.json"],
+  source: ["test_single_file/**/*.json"],
   log: {
     verbosity: "verbose",
   },
